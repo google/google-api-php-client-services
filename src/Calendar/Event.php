@@ -214,7 +214,7 @@ class Event extends \Google\Collection
     $this->extendedProperties = $extendedProperties;
   }
   /**
-   * @return EventExtendedProperties
+   * @return EventExtendedProperties|null
    */
   public function getExtendedProperties()
   {
